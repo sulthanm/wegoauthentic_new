@@ -1,0 +1,239 @@
+Function Requirements :
+
+Read Ops:
+
+- get all packages 
+- get all testimonals this data should also map which package they choosed
+- get testimonals based on package id
+- get all gallery based on location/event choosen, 
+    i) event like nature. festivals, groups, adventures
+    ii) location search like Bagdogra, Thimpu
+- (search bar) get packages based on search location
+- get all trending destinations
+- get all FAQs
+- get all trips of user, based on activated time if user is added by admin.
+
+write ops:
+Users perspective : 
+- form for feedback, sign in not required, (to be discuiseed). (optional field upload photo --> to be stored in gallery)   
+- contact form (send mail to owner)
+- customize plan requests (request should go to trips data table, status will be there)
+
+Admin perspctive :
+- add trips, update trips status.
+- update gallery.
+- invoice api for admin
+
+Out of scope :
+- get all trending destinations activities
+- show base package when user searched location.
+
+
+REST APIs:
+
+1. GET api/v1/get-packages/ : List<Package>
+2. GET api/v1/get-package/{packageId} : Package
+3. POST AUTH api/v1/add-package 
+	{
+		packageDetails
+	}
+4. POST AUTH api/v1/request-trip-book : { trip_bookings } (mail or whatsapp mesg to both parties, create this user in user db)
+5. GET AUTH api/v1/get-all-trips : List<Trips>
+6. PUT AUTH api/v1/cancel-trip/{tripId} : Status
+7. PUT AUTH api/v1/update-trip/{tripId} : { trip_bookings } 
+8. GET api/v1/get-itinerary/{intenaryId} : Itinery
+9. POST api/v1/add-itinerary 
+10.GET api/v1/get-inclusions : List<Inclusion>
+11.GET api/v1/get-exclusions : List<Exclusion>
+12.POST api/v1/add-testimonal { testimonal } : if user didnt exist create user
+13.GET api/v1/get-testimonal : List<Testimonal>
+14.GET api/v1/get-gallery : List<Gallery>
+15.POST AUTH api/v1/add-image { gallery }
+16.GET api/v1/serach/{search-name} : List<Gallery> 
+17.GET api/v1/get-faqs : List<FAQs>
+18.POST api/v1/sign-up { user } : otp verification
+19.POST api/v1/sign-in { user } : otp verification
+
+		
+
+Enhancements :
+1. PUT api/v1/update-package/ {packageId}
+	{ packageDetails }
+2. DELETE api/v1/delete-package/{packageId}
+3. PUT api/v1/update-intenary/{itineraryId}
+	{ intenaryDetails }
+4. DELETE api/v1/delete-package/{itineraryId}
+
+
+Tables :
+
+Package ---> id, name (group, private), title, price, description, overview, intenaryId, inclusiosnId, exclusionsId.
+Itinery --> id, name, route(JSON), daysInfo(json),  
+
+
+chat gpt :
+
+user:
+- id(PK)
+- name
+- phone
+- trips : [] 
+- historyAcknowledment : boolean
+- role
+- activatedAt
+- createdAt
+- lastUpdated
+
+packages
+- id (PK)
+- name
+- type            -- 'group' / 'private'
+- title
+- price
+- description
+- overview
+- itinerary_id (FK → itineraries.id)
+- inclusion_set_id (FK → inclusion_sets.id)
+- exclusion_set_id (FK → exclusion_sets.id)
+- created_at
+- updated_at
+
+example : 
+{
+  "id": 1,
+  "name": "Bhutan Explorer",
+  "type": "group",
+  "title": "7 Days Bhutan Tour",
+  "price": 25000,
+  "description": "Explore Bhutan with guided tour",
+  "overview": "Covers Thimphu, Paro, Punakha",
+  "itinerary_id": 101,
+  "inclusion_set_id": 201,
+  "exclusion_set_id": 301,
+  "created_at": "2026-04-02",
+  "updated_at": "2026-04-02"
+}
+
+itineraries
+- id (PK)
+- name
+- days_info_json    -- main itinerary data (day-wise)
+- created_at
+- updated_at
+example :
+{
+  "id": 101,
+  "name": "Bhutan Standard Route",
+  "days_info_json": {
+    "days": [
+      {
+        "day": 1,
+        "title": "Arrival",
+        "route": ["Bagdogra", "Phuentsholing"],
+        "description": "Transfer and hotel check-in"
+      },
+      {
+        "day": 2,
+        "title": "Transfer to Thimphu",
+        "route": ["Phuentsholing", "Thimphu"],
+        "activities": ["Scenic drive"]
+      },
+      {
+        "day": 3,
+        "title": "Punakha Excursion",
+        "route": ["Thimphu", "Punakha", "Thimphu"],
+        "activities": [
+          "Visit Punakha Dzong",
+          "River walk"
+        ]
+      }
+    ]
+  },
+  "created_at": "2026-04-02",
+  "updated_at": "2026-04-02"
+}
+
+
+inclusion_sets
+- id (PK)
+- name
+- items_json
+- created_at
+- updated_at
+
+example :
+{
+  "id": 201,
+  "name": "Standard Inclusion",
+  "items_json": [
+    "Hotel accommodation",
+    "Breakfast & Dinner",
+    "Private vehicle",
+    "Tour guide"
+  ],
+  "created_at": "2026-04-02",
+  "updated_at": "2026-04-02"
+}
+
+exclusion_sets
+- id (PK)
+- name
+- items_json
+- created_at
+- updated_at
+
+
+testimonials
+- id
+- user_id
+- name
+- rating
+- package_id
+- phone (mandatory)
+- email (optional)
+- review_comment
+- created_at
+- lastUpdated
+
+
+faqs
+- id
+- question 
+- answer
+- is_needed
+- last_updated
+- created_at
+
+
+trip_bookings:
+- id (PK)
+- user_id (PK)
+- package_id (FK)
+- package_name (snapshot)
+- price (snapshot)
+- start_date
+- end_date
+- status (Requested, Accepted, Completed, Cancelled)
+- payment_status (Pending, Completed, Failed, Refunded)
+- created_by (admin/user)
+- created_by_id
+- created_at
+- updated_at
+
+
+TripStatus
+Requested, Doubtfull, Accepted, Completed, Cancelled
+
+PaymentStatus
+(Pending, Completed, Failed, Refunded)
+
+
+gallery :
+- id
+- s3_url
+- location
+- tags []
+- created_at
+- last_updated
+
+
