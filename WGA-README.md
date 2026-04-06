@@ -1,8 +1,8 @@
-\# 📘 Project README – Travel Packages \& Booking System
+## 📘 Project README – Travel Packages \& Booking System
 
 
 
-\## 📌 Overview
+## 📌 Overview
 
 
 
@@ -14,11 +14,11 @@ This project is a \*\*Travel Packages \& Booking Platform\*\* that allows users 
 
 
 
-\# 🚀 Features
+## 🚀 Features
 
 
 
-\## 🔍 Read Operations
+### 🔍 Read Operations
 
 
 
@@ -50,11 +50,11 @@ This project is a \*\*Travel Packages \& Booking Platform\*\* that allows users 
 
 
 
-\## ✍️ Write Operations
+## ✍️ Write Operations
 
 
 
-\### 👤 User Perspective
+### 👤 User Perspective
 
 
 
@@ -74,7 +74,7 @@ This project is a \*\*Travel Packages \& Booking Platform\*\* that allows users 
 
 
 
-\### 🛠️ Admin Perspective
+### 🛠️ Admin Perspective
 
 
 
@@ -92,7 +92,7 @@ This project is a \*\*Travel Packages \& Booking Platform\*\* that allows users 
 
 
 
-\## ❌ Out of Scope
+## ❌ Out of Scope
 
 
 
@@ -106,11 +106,11 @@ This project is a \*\*Travel Packages \& Booking Platform\*\* that allows users 
 
 
 
-\# 🌐 REST API Design
+# 🌐 REST API Design
 
 
 
-\## 📖 Public APIs
+## 📖 Public APIs
 
 
 
@@ -148,7 +148,7 @@ POST   /api/v1/sign-in
 
 
 
-\## 🔐 Authenticated APIs
+## 🔐 Authenticated APIs
 
 
 
@@ -174,7 +174,7 @@ POST   /api/v1/add-image
 
 
 
-\## ⚙️ Enhancements (Future Scope)
+## ⚙️ Enhancements (Future Scope)
 
 
 
@@ -196,11 +196,11 @@ DELETE /api/v1/delete-itinerary/{itineraryId}
 
 
 
-\# 🗄️ Database Design
+# 🗄️ Database Design
 
 
 
-\## 👤 Users
+## 👤 Users
 
 
 
@@ -228,7 +228,7 @@ DELETE /api/v1/delete-itinerary/{itineraryId}
 
 
 
-\## 📦 Packages
+## 📦 Packages
 
 
 
@@ -262,7 +262,7 @@ DELETE /api/v1/delete-itinerary/{itineraryId}
 
 
 
-\## 🗺️ Itineraries
+## 🗺️ Itineraries
 
 
 
@@ -282,7 +282,7 @@ DELETE /api/v1/delete-itinerary/{itineraryId}
 
 
 
-\## ✅ Inclusion Sets
+## ✅ Inclusion Sets
 
 
 
@@ -302,7 +302,7 @@ DELETE /api/v1/delete-itinerary/{itineraryId}
 
 
 
-\## ❌ Exclusion Sets
+## ❌ Exclusion Sets
 
 
 
@@ -322,7 +322,7 @@ DELETE /api/v1/delete-itinerary/{itineraryId}
 
 
 
-\## ⭐ Testimonials
+## ⭐ Testimonials
 
 
 
@@ -352,7 +352,7 @@ DELETE /api/v1/delete-itinerary/{itineraryId}
 
 
 
-\## ❓ FAQs
+## ❓ FAQs
 
 
 
@@ -374,7 +374,7 @@ DELETE /api/v1/delete-itinerary/{itineraryId}
 
 
 
-\## 🧳 Trip Bookings
+## 🧳 Trip Bookings
 
 
 
@@ -406,7 +406,7 @@ DELETE /api/v1/delete-itinerary/{itineraryId}
 
 
 
-\### 📊 Status Enums
+### 📊 Status Enums
 
 
 
@@ -444,7 +444,7 @@ DELETE /api/v1/delete-itinerary/{itineraryId}
 
 
 
-\## 🖼️ Gallery
+## 🖼️ Gallery
 
 
 
@@ -466,7 +466,7 @@ DELETE /api/v1/delete-itinerary/{itineraryId}
 
 
 
-\# 🧠 Key Design Decisions
+# 🧠 Key Design Decisions
 
 
 
@@ -484,7 +484,7 @@ DELETE /api/v1/delete-itinerary/{itineraryId}
 
 
 
-\# 🎯 Future Improvements
+# 🎯 Future Improvements
 
 
 
@@ -504,7 +504,7 @@ DELETE /api/v1/delete-itinerary/{itineraryId}
 
 
 
-\# 📌 Notes
+# 📌 Notes
 
 
 
@@ -520,7 +520,7 @@ DELETE /api/v1/delete-itinerary/{itineraryId}
 
 
 
-\# 👨‍💻 Contributors
+# 👨‍💻 Contributors
 
 
 
