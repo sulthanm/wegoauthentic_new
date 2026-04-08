@@ -5,14 +5,16 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
+import org.springframework.stereotype.Component;
 
 import javax.crypto.SecretKey;
 import java.time.Instant;
 import java.util.Date;
 
+@Component
 public class JwtService {
 
-    private static final String SECRET_KEY = "89B84ED6A248D68B9BD75F21D2F32";
+    private static final String SECRET_KEY = "19eb12479cfd33a6bb7972b13e78a0cc89479c217fcfbcb9565a576a39b9e7cd";
 
     public String extractPhone(Claims claims) {
         return claims.get("phone",String.class);

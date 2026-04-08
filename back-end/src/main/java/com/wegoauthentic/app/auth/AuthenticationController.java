@@ -24,7 +24,7 @@ public class AuthenticationController {
         return ResponseEntity.ok("OTP Sent");
     }
 
-    @PostMapping("/user/authenticate")
+    @PostMapping("/public/login")
     public ResponseEntity<AuthenticationResponse> authenticate(@RequestBody AuthenticationRequest registerRequest){
         // validate otp
         // if user doesn't exist -> create user
