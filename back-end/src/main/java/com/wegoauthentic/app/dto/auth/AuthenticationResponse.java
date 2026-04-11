@@ -1,4 +1,4 @@
-package com.wegoauthentic.app.model;
+package com.wegoauthentic.app.dto.auth;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62e0e792-06cc-477e-a998-80243316dfb0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/controller/OtpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/dto/otp/OtpVerifyDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/model/otp/OtpData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/repository/OtpRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/OtpService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/impl/OtpServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/util/OtpGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/authJwt/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/authJwt/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/authJwt/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/UserDetailsServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/authJwt/UserDetailsServiceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/model/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/dto/auth/AuthenticationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/model/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/dto/auth/AuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/model/OtpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/dto/otp/OtpRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3BzZtaJPEb0LBJIbQzTAu8PCwqU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.WegoauthenticApplication.executor": "Run",
+    "Maven.wegoauthentic.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "otp-feature",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Bhutan-Trip/wegoauthentic_new",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2678161",
+    "settings.editor.selected.configurable": "preferences.JavaFX"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.WegoauthenticApplication">
+    <configuration name="WegoauthenticApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wegoauthentic.app.WegoauthenticApplication" />
+      <module name="wegoauthentic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wegoauthentic.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wegoauthentic" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WegoauthenticApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62e0e792-06cc-477e-a998-80243316dfb0" name="Changes" comment="" />
+      <created>1775494077059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775494077059</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,8 +1,8 @@
-package com.wegoauthentic.app.auth;
+package com.wegoauthentic.app.controller;
 
-import com.wegoauthentic.app.model.AuthenticationRequest;
-import com.wegoauthentic.app.model.AuthenticationResponse;
-import com.wegoauthentic.app.model.OtpRequest;
+import com.wegoauthentic.app.dto.auth.AuthenticationRequest;
+import com.wegoauthentic.app.dto.auth.AuthenticationResponse;
+import com.wegoauthentic.app.dto.otp.OtpRequestDto;
 import com.wegoauthentic.app.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -19,7 +19,7 @@ public class AuthenticationController {
     private final UserService userService;
 
     @PostMapping("/public/register")
-    public ResponseEntity<String> register(@RequestBody OtpRequest registerRequest){
+    public ResponseEntity<String> register(@RequestBody OtpRequestDto registerRequest){
         //we will take input of phone and send them otp here
         return ResponseEntity.ok("OTP Sent");
     }

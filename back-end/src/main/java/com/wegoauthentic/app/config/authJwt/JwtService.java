@@ -1,4 +1,4 @@
-package com.wegoauthentic.app.config;
+package com.wegoauthentic.app.config.authJwt;
 
 import com.wegoauthentic.app.entity.User;
 import io.jsonwebtoken.Claims;
