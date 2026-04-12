@@ -5,33 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62e0e792-06cc-477e-a998-80243316dfb0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/redis/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/controller/OtpController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/dto/otp/OtpVerifyDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/model/otp/OtpData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/repository/OtpRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/OtpService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/impl/OtpServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/util/OtpGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back-end/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/controller/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/authJwt/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/authJwt/JwtService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/authJwt/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/UserDetailsServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/authJwt/UserDetailsServiceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/model/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/dto/auth/AuthenticationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/model/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/dto/auth/AuthenticationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/model/OtpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/dto/otp/OtpRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/redis/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/config/redis/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/model/otp/OtpData.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/model/otp/OtpData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/repository/OtpRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/repository/OtpRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/OtpService.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/OtpService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/impl/OtpServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/service/impl/OtpServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/util/OtpGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/src/main/java/com/wegoauthentic/app/util/OtpGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,20 +41,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.WegoauthenticApplication.executor": "Run",
-    "Maven.wegoauthentic.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "otp-feature",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Bhutan-Trip/wegoauthentic_new",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2678161",
-    "settings.editor.selected.configurable": "preferences.JavaFX"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.WegoauthenticApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.wegoauthentic.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;otp-feature&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Bhutan-Trip/wegoauthentic_new&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2678161&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.WegoauthenticApplication">
     <configuration name="WegoauthenticApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wegoauthentic.app.WegoauthenticApplication" />

@@ -1,4 +1,13 @@
 package com.wegoauthentic.app.model.otp;
 
-public class OtpData {
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+public class OtpData{
+    private String otp;
+    private int attempts;
 }
