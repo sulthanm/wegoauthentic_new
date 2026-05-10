@@ -6,8 +6,10 @@ import com.wegoauthentic.app.service.EmailService;
 import com.wegoauthentic.app.service.OtpService;
 import com.wegoauthentic.app.util.OtpGenerator;
 import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Service;
 
 @AllArgsConstructor
+@Service
 public class OtpServiceImpl implements OtpService {
 
     private final EmailService emailService;

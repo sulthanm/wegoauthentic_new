@@ -43,6 +43,10 @@ public class OtpRepository {
     }
 
     public void updateAttempts(String email, OtpData otpData) {
-        redisTemplate.opsForValue().set(getKey(email), otpData, 5, TimeUnit.MINUTES);
+        String key = getKey(email);
+
+        Long ttl = redisTemplate.getExpire(key, TimeUnit.SECONDS);
+
+        redisTemplate.opsForValue().set(key, otpData, ttl, TimeUnit.SECONDS);
     }
 }
